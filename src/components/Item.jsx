@@ -11,7 +11,7 @@ const Item = ({ item }) => {
     } else if (currency === "EUR") {
       return `€${price}`;
     }
-    return `${price} GBP`;
+    return `${price} ${currency}`;
   };
 
   const getQuantity = quantity => {
